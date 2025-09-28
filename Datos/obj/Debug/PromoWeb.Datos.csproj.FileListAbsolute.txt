@@ -1,0 +1,9 @@
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\bin\Debug\Datos.dll
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\bin\Debug\Datos.pdb
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\bin\Debug\Dominio.dll
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\bin\Debug\Dominio.pdb
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\obj\Debug\PromoWeb.Datos.csproj.AssemblyReference.cache
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\obj\Debug\PromoWeb.Datos.csproj.CoreCompileInputs.cache
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\obj\Debug\PromoWeb.8DE63629.Up2Date
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\obj\Debug\Datos.dll
+D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Datos\obj\Debug\Datos.pdb
