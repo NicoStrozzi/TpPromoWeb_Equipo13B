@@ -1,0 +1,64 @@
+# Visual Studio / .NET Framework
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.opendb
+
+# Build
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+Debug/
+Release/
+x64/
+x86/
+
+# Test / coverage
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publish
+app.publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+Properties/PublishProfiles/*.user
+
+# NuGet (packages.config)
+packages/
+!packages/repositories.config
+*.nupkg
+
+# IIS Express / VS Source Control
+iisexpress/
+*.vspscc
+*.vssscc
+
+# IDE tools
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# Logs / temps
+*.log
+*.tlog
+$tf/
+*.cache
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local DB (borralas si querés versionarlas)
+*.mdf
+*.ldf
+
+# Frontend (si aplica)
+node_modules/
+dist/
