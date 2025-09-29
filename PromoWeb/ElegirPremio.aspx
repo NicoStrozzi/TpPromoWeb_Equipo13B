@@ -1,16 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ElegirPremio.aspx.cs" Inherits="PromoWeb.ElegirPremio" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFlie="~/Master.Master" CodeBehind="ElegirPremio.aspx.cs" Inherits="PromoWeb.ElegirPremio" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Elegir Premio</title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    
         <div>
+            <asp:Repeater ID="repPremios" runat="server" OnItemCommand="repPremios_ItemCommand"></asp:Repeater>
+            <asp:Button ID="btnElegir" runat="server" Text="Elegir" />
         </div>
-    </form>
+   
 </body>
 </html>

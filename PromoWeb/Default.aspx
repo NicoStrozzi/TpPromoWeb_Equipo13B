@@ -1,16 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PromoWeb.Defoult" %>
+﻿<%@ Page Title="Inicio" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PromoWeb.Default" %>
 
-<!DOCTYPE html>
+  <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+  <div class="container" style="max-width:900px;margin-top:24px;">
+    <h1>¡Bienvenido!</h1>
+    <p>Participá ingresando tu código de voucher.</p>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+    <!-- Link a la siguiente
+    <asp:HyperLink ID="lnkCodigo" runat="server"
+        NavigateUrl="~/CodigoVoucher.aspx"
+        CssClass="btn btn-primary">Ingresar código</asp:HyperLink>-->
+      <asp:Button ID="btnCodigo" runat="server" Text="Ingresar código"
+    CssClass="btn btn-primary" OnClick="btnCodigo_Click" CausesValidation="false" />
+  </div>
+</asp:Content>
+

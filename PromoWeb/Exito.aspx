@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Exito.aspx.cs" Inherits="PromoWeb.Exito" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Master.Master" CodeBehind="Exito.aspx.cs" Inherits="PromoWeb.Exito" %>
 
 <!DOCTYPE html>
 

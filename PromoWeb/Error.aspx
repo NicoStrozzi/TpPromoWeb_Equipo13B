@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Error.aspx.cs" Inherits="PromoWeb.Error" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Master.Master" CodeBehind="Error.aspx.cs" Inherits="PromoWeb.Error" %>
 
 <!DOCTYPE html>
 

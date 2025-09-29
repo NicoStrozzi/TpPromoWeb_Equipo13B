@@ -7,11 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace PromoWeb
 {
-    public partial class Defoult : System.Web.UI.Page
+    public partial class Default : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        protected void btnCodigo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CodigoVoucher.aspx", true);
         }
     }
 }

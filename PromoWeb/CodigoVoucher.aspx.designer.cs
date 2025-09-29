@@ -15,15 +15,6 @@ namespace PromoWeb
     {
 
         /// <summary>
-        /// Control valSummary.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary valSummary;
-
-        /// <summary>
         /// Control txtVoucher.
         /// </summary>
         /// <remarks>
@@ -33,15 +24,6 @@ namespace PromoWeb
         protected global::System.Web.UI.WebControls.TextBox txtVoucher;
 
         /// <summary>
-        /// Control rfvVoucher.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvVoucher;
-
-        /// <summary>
         /// Control btnSiguiente.
         /// </summary>
         /// <remarks>
@@ -49,5 +31,14 @@ namespace PromoWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSiguiente;
+
+        /// <summary>
+        /// Control lblError.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
     }
 }
