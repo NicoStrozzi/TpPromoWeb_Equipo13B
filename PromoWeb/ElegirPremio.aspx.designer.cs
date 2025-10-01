@@ -15,21 +15,12 @@ namespace PromoWeb
     {
 
         /// <summary>
-        /// Control repPremios.
+        /// Control repArticulos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repPremios;
-
-        /// <summary>
-        /// Control btnElegir.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnElegir;
+        protected global::System.Web.UI.WebControls.Repeater repArticulos;
     }
 }

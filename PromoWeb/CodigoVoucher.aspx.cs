@@ -32,7 +32,6 @@ namespace PromoWeb
                 return;
             }
 
-            // Usar tu negocio y tu enum ANIDADO en la clase
             VoucherNegocio voucherNegocio = new VoucherNegocio();
             VoucherNegocio.EstadoVoucher estado = voucherNegocio.validar(codigo);
 
@@ -41,9 +40,14 @@ namespace PromoWeb
                 Session["CodigoVoucher"] = codigo;
                 Response.Redirect("ElegirPremio.aspx");
             }
+
+            if(estado==VoucherNegocio.EstadoVoucher.Inexistente)
+            {
+                lblError.Text = "El código no existe";
+            }
             else
             {
-                lblError.Text = "El código es inválido o ya fue utilizado.";
+                lblError.Text = "El código ya fue utilizado.";
             }
         }
     }

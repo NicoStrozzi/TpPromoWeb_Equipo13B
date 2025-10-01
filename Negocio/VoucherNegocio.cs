@@ -44,5 +44,25 @@ namespace Negocio
                 datos.cerrarConexion();
             }
         }
+
+        public void MarcarCanje(string codigo, int idCliente, int idArticulo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta(
+                    "UPDATE Vouchers " +
+                    "SET IdCliente = @idCli, FechaCanje = GETDATE(), IdArticulo = @idArt " +
+                    "WHERE CodigoVoucher = @codigo");
+                datos.setearParametro("@idCli", idCliente);
+                datos.setearParametro("@idArt", idArticulo);
+                datos.setearParametro("@codigo", codigo);
+                datos.ejecutarAccion();
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }

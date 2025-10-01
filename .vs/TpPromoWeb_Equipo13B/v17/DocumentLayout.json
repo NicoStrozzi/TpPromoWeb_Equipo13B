@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|d:\\carrera programacion\\programacion 3\\tppromoweb_equipo13b\\promoweb\\elegirpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\elegirpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\datos\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|solutionrelative:datos\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\elegirpremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\elegirpremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|solutionrelative:datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77785292-B259-4BD3-80E6-E3D0604BFD1F}|Negocio\\PromoWeb.Negocio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77785292-B259-4BD3-80E6-E3D0604BFD1F}|Negocio\\PromoWeb.Negocio.csproj|solutionrelative:negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\codigovoucher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\codigovoucher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,72 +35,8 @@
       "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\codigovoucher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77785292-B259-4BD3-80E6-E3D0604BFD1F}|Negocio\\PromoWeb.Negocio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77785292-B259-4BD3-80E6-E3D0604BFD1F}|Negocio\\PromoWeb.Negocio.csproj|solutionrelative:negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|d:\\carrera programacion\\programacion 3\\tppromoweb_equipo13b\\promoweb\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|d:\\carrera programacion\\programacion 3\\tppromoweb_equipo13b\\promoweb\\registrocliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\registrocliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\elegirpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\elegirpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\exito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\exito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\error.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\error.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|solutionrelative:datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\datos\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4942A180-643C-4833-B07C-F182CC214DC0}|Datos\\PromoWeb.Datos.csproj|solutionrelative:datos\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\promoweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{63596B4E-8B2B-4CFD-8C10-2B59C692B971}|PromoWeb\\PromoWeb.Web.csproj|solutionrelative:promoweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|solutionrelative:dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}|Dominio\\PromoWeb.Dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,102 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegistroCliente.aspx",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\RegistroCliente.aspx",
-              "RelativeDocumentMoniker": "PromoWeb\\RegistroCliente.aspx",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\RegistroCliente.aspx",
-              "RelativeToolTip": "PromoWeb\\RegistroCliente.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-27T22:58:42.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CodigoVoucher.aspx",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx",
-              "RelativeDocumentMoniker": "PromoWeb\\CodigoVoucher.aspx",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx",
-              "RelativeToolTip": "PromoWeb\\CodigoVoucher.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-27T16:49:52.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CodigoVoucher.aspx.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx.cs",
-              "RelativeDocumentMoniker": "PromoWeb\\CodigoVoucher.aspx.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx.cs",
-              "RelativeToolTip": "PromoWeb\\CodigoVoucher.aspx.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
+              "Title": "ArticuloDatos.cs",
+              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Datos\\ArticuloDatos.cs",
+              "RelativeDocumentMoniker": "Datos\\ArticuloDatos.cs",
+              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Datos\\ArticuloDatos.cs",
+              "RelativeToolTip": "Datos\\ArticuloDatos.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAwHIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T22:45:24.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VoucherNegocio.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Negocio\\VoucherNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\VoucherNegocio.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Negocio\\VoucherNegocio.cs",
-              "RelativeToolTip": "Negocio\\VoucherNegocio.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T23:26:35.246Z",
+              "WhenOpened": "2025-10-01T20:07:55.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "PromoWeb\\Default.aspx.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Default.aspx.cs",
-              "RelativeToolTip": "PromoWeb\\Default.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
+              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Dominio\\Articulo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T00:16:44.47Z",
+              "WhenOpened": "2025-10-01T20:04:37.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Master.Master",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Master.Master",
-              "RelativeDocumentMoniker": "PromoWeb\\Master.Master",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Master.Master",
-              "RelativeToolTip": "PromoWeb\\Master.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-27T16:49:10.61Z",
+              "DocumentIndex": 2,
+              "Title": "ElegirPremio.aspx.cs",
+              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\ElegirPremio.aspx.cs",
+              "RelativeDocumentMoniker": "PromoWeb\\ElegirPremio.aspx.cs",
+              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\ElegirPremio.aspx.cs",
+              "RelativeToolTip": "PromoWeb\\ElegirPremio.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:57:15.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Default.aspx",
-              "RelativeDocumentMoniker": "PromoWeb\\Default.aspx",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Default.aspx",
-              "RelativeToolTip": "PromoWeb\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-28T11:41:11.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ElegirPremio.aspx",
               "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\ElegirPremio.aspx",
               "RelativeDocumentMoniker": "PromoWeb\\ElegirPremio.aspx",
@@ -189,140 +97,70 @@
               "RelativeToolTip": "PromoWeb\\ElegirPremio.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-27T22:57:38.446Z"
+              "WhenOpened": "2025-09-27T22:57:38.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Exito.aspx",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Exito.aspx",
-              "RelativeDocumentMoniker": "PromoWeb\\Exito.aspx",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Exito.aspx",
-              "RelativeToolTip": "PromoWeb\\Exito.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-27T22:59:08.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Error.aspx",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Error.aspx",
-              "RelativeDocumentMoniker": "PromoWeb\\Error.aspx",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Error.aspx",
-              "RelativeToolTip": "PromoWeb\\Error.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-27T22:59:26.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Datos\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Datos\\AccesoDatos.cs",
               "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Datos\\AccesoDatos.cs",
               "RelativeToolTip": "Datos\\AccesoDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T20:14:23.332Z"
+              "WhenOpened": "2025-09-27T20:14:23.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
+              "Title": "CodigoVoucher.aspx.cs",
+              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx.cs",
+              "RelativeDocumentMoniker": "PromoWeb\\CodigoVoucher.aspx.cs",
+              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx.cs",
+              "RelativeToolTip": "PromoWeb\\CodigoVoucher.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T22:45:24.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Web.config",
               "RelativeDocumentMoniker": "PromoWeb\\Web.config",
               "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\Web.config",
               "RelativeToolTip": "PromoWeb\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-09-27T23:07:34.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "Dominio\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "VoucherNegocio.cs",
+              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Negocio\\VoucherNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\VoucherNegocio.cs",
+              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Negocio\\VoucherNegocio.cs",
+              "RelativeToolTip": "Negocio\\VoucherNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T20:28:40.136Z"
+              "WhenOpened": "2025-10-01T00:44:27.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ArticuloDatos.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Datos\\ArticuloDatos.cs",
-              "RelativeDocumentMoniker": "Datos\\ArticuloDatos.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Datos\\ArticuloDatos.cs",
-              "RelativeToolTip": "Datos\\ArticuloDatos.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwDsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:41:15.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Voucher.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Voucher.cs",
-              "RelativeDocumentMoniker": "Dominio\\Voucher.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Voucher.cs",
-              "RelativeToolTip": "Dominio\\Voucher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:38:34.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "Dominio\\Imagen.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Imagen.cs",
-              "RelativeToolTip": "Dominio\\Imagen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:36:15.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Marca.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Marca.cs",
-              "RelativeDocumentMoniker": "Dominio\\Marca.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Marca.cs",
-              "RelativeToolTip": "Dominio\\Marca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:33:00.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Cliente.cs",
-              "RelativeDocumentMoniker": "Dominio\\Cliente.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Cliente.cs",
-              "RelativeToolTip": "Dominio\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:33:37.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Categoria.cs",
-              "RelativeDocumentMoniker": "Dominio\\Categoria.cs",
-              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\Dominio\\Categoria.cs",
-              "RelativeToolTip": "Dominio\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T21:31:09.021Z"
+              "DocumentIndex": 7,
+              "Title": "CodigoVoucher.aspx",
+              "DocumentMoniker": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx",
+              "RelativeDocumentMoniker": "PromoWeb\\CodigoVoucher.aspx",
+              "ToolTip": "D:\\Carrera programacion\\Programacion 3\\TpPromoWeb_Equipo13B\\PromoWeb\\CodigoVoucher.aspx",
+              "RelativeToolTip": "PromoWeb\\CodigoVoucher.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-27T16:49:52.293Z"
             }
           ]
         }

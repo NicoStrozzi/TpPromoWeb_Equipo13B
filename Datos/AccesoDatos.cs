@@ -19,7 +19,7 @@ namespace Datos
         }
         public AccesoDatos()
         {
-            conexion = new SqlConnection(ConfigurationManager.AppSettings["cadenaConexion"]);
+            conexion = new SqlConnection(ConfigurationManager.AppSettings["PROMO_DB"]);
             comando = new SqlCommand();
         }
 
