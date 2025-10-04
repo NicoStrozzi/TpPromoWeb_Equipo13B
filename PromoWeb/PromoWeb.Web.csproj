@@ -73,6 +73,8 @@
     <Content Include="Error.aspx" />
     <Content Include="Exito.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="RespuestaCodigo.aspx" />
+    <Content Include="WebForm1.aspx" />
     <None Include="Master.Master" />
     <Content Include="RegistroCliente.aspx" />
     <Content Include="Web.config" />
@@ -130,6 +132,20 @@
     </Compile>
     <Compile Include="RegistroCliente.aspx.designer.cs">
       <DependentUpon>RegistroCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RespuestaCodigo.aspx.cs">
+      <DependentUpon>RespuestaCodigo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RespuestaCodigo.aspx.designer.cs">
+      <DependentUpon>RespuestaCodigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
