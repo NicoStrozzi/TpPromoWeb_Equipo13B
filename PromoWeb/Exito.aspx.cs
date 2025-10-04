@@ -13,5 +13,10 @@ namespace PromoWeb
         {
 
         }
+
+        protected void btnVolverHome_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }
