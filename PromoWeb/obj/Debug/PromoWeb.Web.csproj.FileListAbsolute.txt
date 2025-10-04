@@ -59,7 +59,5 @@ D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\obj\Debug\P
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\obj\Debug\PromoWeb.87E9D384.Up2Date
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\obj\Debug\PromoWeb.dll
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\obj\Debug\PromoWeb.pdb
-D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\bin\Datos.dll
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\bin\Dominio.dll
-D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\bin\Datos.pdb
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\PromoWeb\bin\Dominio.pdb

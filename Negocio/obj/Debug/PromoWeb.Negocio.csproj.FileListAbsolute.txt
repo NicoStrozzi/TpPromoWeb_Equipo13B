@@ -1,8 +1,6 @@
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\bin\Debug\Negocio.dll
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\bin\Debug\Negocio.pdb
-D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\bin\Debug\Datos.dll
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\bin\Debug\Dominio.dll
-D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\bin\Debug\Datos.pdb
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\bin\Debug\Dominio.pdb
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\obj\Debug\PromoWeb.Negocio.csproj.AssemblyReference.cache
 D:\Carrera programacion\Programacion 3\TpPromoWeb_Equipo13B\Negocio\obj\Debug\PromoWeb.Negocio.csproj.CoreCompileInputs.cache

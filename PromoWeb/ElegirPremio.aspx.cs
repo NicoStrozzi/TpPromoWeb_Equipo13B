@@ -1,5 +1,4 @@
-﻿using Datos;
-using Dominio;
+﻿using Dominio;
 using Negocio;
 using System;
 using System.Collections.Generic;
@@ -13,7 +12,7 @@ namespace PromoWeb
 {
     public partial class ElegirPremio : System.Web.UI.Page
     {
-        private List<Articulo> premios;
+        //private List<Articulo> premios;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -24,66 +23,52 @@ namespace PromoWeb
 
         private void CargarArticulos()
         {
-            ArticuloDatos datos = new ArticuloDatos();
-            List<Articulo> articulos = datos.ListarPremios(); // método básico
-            repArticulos.DataSource = articulos;
-            repArticulos.DataBind();
+            ArticuloNegocio datos = new ArticuloNegocio();
+            List<Articulo> articulos = datos.ListarPremios();
+            repPremios.DataSource = articulos;
+            repPremios.DataBind();
         }
 
-        protected void repArticulos_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        protected void repPremios_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
-            if (e.Item.ItemType != ListItemType.Item && e.Item.ItemType != ListItemType.AlternatingItem)
+            if (e.Item.ItemType != ListItemType.Item &&
+                e.Item.ItemType != ListItemType.AlternatingItem)
                 return;
 
-            Articulo art = (Articulo)e.Item.DataItem;
+            var premio = (Articulo)e.Item.DataItem;
+            var repImgs = e.Item.FindControl("repImagenes") as Repeater;
+            if (repImgs == null) return;
 
-            // Repeater interno de imágenes
-            Repeater repImgs = (Repeater)e.Item.FindControl("repImagenes");
+            var datos = new ArticuloNegocio();
+            List<string> urls = datos.ListarImagenesPorArticulo(premio.Id);
 
-            // Traer imágenes para este artículo
-            ArticuloDatos datos = new ArticuloDatos();
-            List<string> imagenes = datos.ListarImagenesPorArticulo(art.Id);
+            
+            string placeholder = "https://placehold.co/640x360?text=Sin+imagen";
+            //string placeholder = "https://via.placeholder.com/640x360?text=Sin+imagen";
 
-            // Si no hay imágenes, dejamos una de relleno
-            if (imagenes == null || imagenes.Count == 0)
+            // Limpio nulos/blancos y garantizo al menos 1 URL
+            var limpias = new List<string>();
+            if (urls != null)
             {
-                imagenes = new List<string>();
-                imagenes.Add("https://via.placeholder.com/640x360?text=Sin+imagen");
+                foreach (var u in urls)
+                    if (!string.IsNullOrWhiteSpace(u))
+                        limpias.Add(u);
             }
+            if (limpias.Count == 0)
+                limpias.Add(placeholder);
 
-            // Bind
-            repImgs.DataSource = imagenes;
-            repImgs.DataBind();
-
-            // Marcar la PRIMERA imagen con clase "active" (sin operadores raros)
-            int indice = 0;
-            foreach (RepeaterItem imgItem in repImgs.Items)
-            {
-                // Buscar el DIV del item con runat="server" e id="divItem"
-                HtmlGenericControl divItem = imgItem.FindControl("divItem") as HtmlGenericControl;
-                if (divItem != null)
-                {
-                    if (indice == 0)
-                        divItem.Attributes["class"] = "carousel-item active";
-                    else
-                        divItem.Attributes["class"] = "carousel-item";
-                }
-                indice++;
-            }
+            repImgs.DataSource = limpias;
+            repImgs.DataBind(); 
         }
 
-        protected void repArticulos_ItemCommand(object source, RepeaterCommandEventArgs e)
+
+        protected void btnElegir_Click(object sender, EventArgs e)
         {
-            if (e.CommandName == "Elegir")
-            {
-                int idArticulo = int.Parse(e.CommandArgument.ToString());
-                Session["PremioSeleccionadoId"] = idArticulo;
+            var buttom = (Button)sender;
+            int idArticulo = int.Parse(buttom.CommandArgument);
 
-                // Redirigí a tu siguiente paso del flujo
-                Response.Redirect("ConfirmarPremio.aspx");
-            }
+            Session["PremioSeleccionadoId"] = idArticulo;
+            Response.Redirect("RegistroCliente.aspx");
         }
-
-    }
-    
+    }     
 }

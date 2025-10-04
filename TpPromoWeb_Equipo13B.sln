@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoWeb.Web", "PromoWeb\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoWeb.Dominio", "Dominio\PromoWeb.Dominio.csproj", "{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoWeb.Datos", "Datos\PromoWeb.Datos.csproj", "{4942A180-643C-4833-B07C-F182CC214DC0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoWeb.Negocio", "Negocio\PromoWeb.Negocio.csproj", "{77785292-B259-4BD3-80E6-E3D0604BFD1F}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{906C02DF-18C9-46A2-88B6-BDC0EEBA653C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4942A180-643C-4833-B07C-F182CC214DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4942A180-643C-4833-B07C-F182CC214DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4942A180-643C-4833-B07C-F182CC214DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4942A180-643C-4833-B07C-F182CC214DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{77785292-B259-4BD3-80E6-E3D0604BFD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77785292-B259-4BD3-80E6-E3D0604BFD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77785292-B259-4BD3-80E6-E3D0604BFD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU

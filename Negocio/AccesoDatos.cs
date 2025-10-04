@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Configuration;
+using Dominio;
 
-namespace Datos
+namespace Negocio
 {
     public class AccesoDatos
     {

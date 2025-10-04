@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,14 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos.cs" />
+    <Compile Include="ArticuloNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VoucherNegocio.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Datos\PromoWeb.Datos.csproj">
-      <Project>{4942a180-643c-4833-b07c-f182cc214dc0}</Project>
-      <Name>PromoWeb.Datos</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Dominio\PromoWeb.Dominio.csproj">
       <Project>{906c02df-18c9-46a2-88b6-bdc0eeba653c}</Project>
       <Name>PromoWeb.Dominio</Name>
