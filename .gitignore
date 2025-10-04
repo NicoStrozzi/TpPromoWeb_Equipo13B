@@ -62,12 +62,3 @@ Thumbs.db
 # Frontend (si aplica)
 node_modules/
 dist/
-.vs/
-*/bin/
-*/obj/
-*.user
-*.suo
-*.pdb
-*.dll
-*.cache
-*.db
