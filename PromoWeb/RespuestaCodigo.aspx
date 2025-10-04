@@ -4,18 +4,23 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div>
-        <h1>Respuesta..</h1>
-    </div>
-    <div>
-        <asp:Label ID="lblError" runat="server" Text="Label"></asp:Label>
-    </div>
-    <div> 
-        <asp:Button ID="btnVolverIngresar" runat="server" Text="Volver a ingresar" 
-            CssClass="btn btn-primary"
-            OnClick="btnVolverIngresar_Click"     
-            />
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h1 class="mb-4">Respuesta</h1>
+                
+                <div class="alert alert-danger" role="alert">
+                    <asp:Label ID="lblError" runat="server" Text=""></asp:Label>
+                </div>
 
+                <asp:Button 
+                    ID="btnVolverIngresar" 
+                    runat="server" 
+                    Text="Volver a ingresar" 
+                    CssClass="btn btn-primary px-4 py-2"
+                    OnClick="btnVolverIngresar_Click" />
+            </div>
+        </div>
     </div>
 
 </asp:Content>

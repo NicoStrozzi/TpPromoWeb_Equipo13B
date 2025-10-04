@@ -1,0 +1,7 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-secondary {
+    padding: 12px 30px; /* más grande */
+    font-size: 1.1rem;
+}

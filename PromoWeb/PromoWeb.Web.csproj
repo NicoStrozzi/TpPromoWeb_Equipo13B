@@ -74,6 +74,7 @@
     <Content Include="Exito.aspx" />
     <Content Include="Global.asax" />
     <Content Include="RespuestaCodigo.aspx" />
+    <Content Include="StyleCss\Site.css" />
     <Content Include="WebForm1.aspx" />
     <None Include="Master.Master" />
     <Content Include="RegistroCliente.aspx" />
