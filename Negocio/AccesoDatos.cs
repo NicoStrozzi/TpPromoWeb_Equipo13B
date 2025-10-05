@@ -20,7 +20,7 @@ namespace Negocio
         }
         public AccesoDatos()
         {
-            conexion = new SqlConnection(ConfigurationManager.AppSettings["PROMO_DB"]);
+            conexion = new SqlConnection(ConfigurationManager.AppSettings["cadenaConexion"]);
             comando = new SqlCommand();
         }
 

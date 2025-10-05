@@ -17,16 +17,16 @@
 
                 <!-- Repeater interno de imágenes -->
                 <asp:Repeater ID="repImagenes" runat="server">
-                  <ItemTemplate>
-                    <!-- Marcamos 'active' -->
-                    <div class='<%# Container.ItemIndex == 0 ? "carousel-item active" : "carousel-item" %>'>
-                      <img src='<%# Container.DataItem %>'
-                           class="d-block w-100"
-                           alt="Imagen del premio"
-                           style="height:180px; object-fit:contain;" />
-                    </div>
-                  </ItemTemplate>
-                </asp:Repeater>
+                <ItemTemplate>
+                <div class='carousel-item <%# Container.ItemIndex == 0 ? "active" : "" %>'>
+                <img src='<%# Container.DataItem as string %>' class="d-block w-100" alt="Premio"
+                    style="height:200px; object-fit:contain;"/>
+        
+    </div>
+
+  </ItemTemplate>
+</asp:Repeater>
+
 
               </div>
 

@@ -15,7 +15,7 @@ namespace PromoWeb
         {
             if (!IsPostBack)
             {
-                txtVoucher.Focus(); // detalle útil y no molesta
+                txtVoucher.Focus();
             }
         }
         protected void btnSiguiente_Click(object sender, EventArgs e)
