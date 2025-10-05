@@ -1,34 +1,76 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Master.Master" CodeBehind="RegistroCliente.aspx.cs" Inherits="PromoWeb.RegistroCliente" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <asp:TextBox ID="txtDni" runat="server"></asp:TextBox>
-    <asp:RequiredFieldValidator runat="server" ErrorMessage="Ingresá DNI"></asp:RequiredFieldValidator>
-    <asp:RegularExpressionValidator ControlToValidate="txtDni" runat="server" ErrorMessage="DNI Inavlido"></asp:RegularExpressionValidator>
 
-    <asp:Button ID="btnBuscar" runat="server" Text="Buscar"/>
+    <div class="col-4"></div>
+    <div class="row g-3">
+        <h2 class="d-flex h-2">Ingresa tus datos</h2>
+        <br />
 
-    <asp:TextBox ID="txtNombre" runat="server" />
-<asp:RequiredFieldValidator ControlToValidate="txtNombre" runat="server" ErrorMessage="Requerido" />
-<asp:TextBox ID="txtApellido" runat="server" />
-<asp:RequiredFieldValidator ControlToValidate="txtApellido" runat="server" ErrorMessage="Requerido" />
-<asp:TextBox ID="txtEmail" runat="server" />
-<asp:RegularExpressionValidator ControlToValidate="txtEmail" runat="server"
-    ValidationExpression="^[^@\s]+@[^@\s]+\.[^@\s]+$" ErrorMessage="Email inválido" />
+        <div class="col-4">
+            <label for="txtDNI" class="form-label">DNI</label>
+            <asp:TextBox CssClass="form-control" placeholder="DNI" runat="server" ID="txtDNI" />
 
-<!-- Dirección, Ciudad, CP con RequiredFieldValidator -->
-<asp:CheckBox ID="chkTyC" runat="server" Text="Acepto términos" />
-<asp:CustomValidator ID="valTyC" runat="server" ErrorMessage="Aceptá T&C" OnServerValidate="valTyC_ServerValidate" />
+        </div>
 
-<asp:Button ID="btnParticipar" runat="server" Text="¡Participar!" OnClick="btnParticipar_Click" />
-<asp:ValidationSummary runat="server" />
-<asp:Label ID="lblError" runat="server" ForeColor="Red" />
+        <div class="col-12">
+            <asp:Button runat="server" Text="Buscar" CssClass="btn btn-primary" ID="btnBuscar" OnClick="btnBuscar_Click"/>
+            <asp:Label ID="lblEstadoCliente" runat="server" CssClass="text-info" Visible="false" />
 
-</body>
-</html>
+        </div>
+
+        <br />
+
+        <div class="col-4">
+            <label for="txtNombre" class="form-label">Nombre</label>
+            <asp:TextBox CssClass="form-control" placeholder="Nombre" runat="server" ID="txtNombre" />
+        </div>
+        <div class="col-4">
+            <label for="txtApellido" class="form-label">Apellido</label>
+            <asp:TextBox CssClass="form-control" placeholder="Apellido" runat="server" ID="txtApellido" />
+        </div>
+
+        <div class="col-8">
+            <label for="txtEmail" class="form-label">Email</label>
+            <asp:TextBox type="email" CssClass="form-control" ID="txtEmail" placeholder="email@ejemplo.com" runat="server" />
+        </div>
+
+        <div class="col-8">
+            <label for="txtDireccion" class="label">Dirección</label>
+            <asp:TextBox runat="server" type="text" CssClass="form-control" ID="txtDireccion" placeholder="Mi Calle 1234" />
+        </div>
+        <div class="col-8">
+            <table>
+                <tr>
+                    <td class="col-6">
+                        <div>
+                            <label for="txtCiudad" class="label">Ciudad</label>
+                            <asp:TextBox runat="server" type="text" CssClass="form-control" ID="txtCiudad" />
+                        </div>
+
+                    </td>
+                    <td class="col-2">
+                        <div>
+                            <label for="txtCP" class="label">CP</label>
+                            <asp:TextBox runat="server" type="text" CssClass="form-control" ID="txtCP" />
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+        <br />
+
+        <div class="col-12">
+            <asp:Button runat="server" Text="Participar" ID="btnParticipar" CssClass="btn btn-primary" OnClick="btnParticipar_Click"/>
+        </div>
+        <div class="col-12">
+            <asp:Label ID="lblMensaje" runat="server" CssClass="text-danger" Visible="false" />
+        </div>
+
+
+    </div>
+    <div class="col-2"></div>
+</asp:Content>
