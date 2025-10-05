@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,27 @@ namespace PromoWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string emailCliente = Session["EmailCliente"] as string;
+            string nombreCliente = Session["NombreCliente"] as string;
 
+            if (!string.IsNullOrEmpty(emailCliente))
+            {
+                try
+                {
+                    EmailService emailService = new EmailService();
+                    string asunto = "Registro exitoso – Promoción UTN";
+                    string cuerpo = "<h2>¡Hola " +nombreCliente+"!</h2>" +
+                                    "<p>Tu registro fue exitoso. ¡Ya estás participando en la promoción!</p>" +
+                                    "<p>Gracias por confiar en nosotros.<br>Equipo 13B</p>";
+
+                    emailService.ArmarCorreo(emailCliente, asunto, cuerpo);
+                    emailService.Enviar();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
         }
 
         protected void btnVolverHome_Click(object sender, EventArgs e)
