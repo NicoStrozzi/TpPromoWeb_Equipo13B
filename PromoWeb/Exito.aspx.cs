@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -14,6 +15,9 @@ namespace PromoWeb
         {
             string emailCliente = Session["EmailCliente"] as string;
             string nombreCliente = Session["NombreCliente"] as string;
+
+            //string emailCliente = "gonzaloarielacuna@gmail.com";
+            //string nombreCliente = "Gonzo";
 
             if (!string.IsNullOrEmpty(emailCliente))
             {
