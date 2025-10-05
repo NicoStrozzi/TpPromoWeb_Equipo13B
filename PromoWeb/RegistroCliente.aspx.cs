@@ -53,6 +53,20 @@ namespace PromoWeb
                     cliente.Id = clienteExistente.Id;
                     negocio.modificar(cliente);
                 }
+                // Marcar el voucher como usado
+                try
+                {
+                    string codigo = Session["txtCod"].ToString();
+                    int idCliente = cliente.Id;
+                    int idArticulo = Convert.ToInt32(Session["PremioSeleccionadoId"]);
+
+                    VoucherNegocio negocioVoucher = new VoucherNegocio();
+                    negocioVoucher.MarcarCanje(codigo, idCliente, idArticulo);
+                }
+                catch (Exception ex)
+                {
+                    MostrarMensaje("Error al actualizar el voucher: " + ex.Message);
+                }
 
                 // Redirección a página de éxito
                 Response.Redirect("Exito.aspx");
