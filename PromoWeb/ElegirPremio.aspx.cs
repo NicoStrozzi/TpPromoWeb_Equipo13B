@@ -75,10 +75,10 @@ namespace PromoWeb
                 Response.Redirect("RegistroCliente.aspx");
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                throw ex;
+                Response.Redirect("Error.aspx");
             }
         }
     }     

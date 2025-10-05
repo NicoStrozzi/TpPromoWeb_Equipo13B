@@ -14,35 +14,43 @@ namespace PromoWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string txtVoucher = Session["txtCod"] as string;
-            string codigo = "";
-            if (txtVoucher != null)
+            try
             {
-                codigo = txtVoucher.Trim();
-            }
+                string txtVoucher = Session["txtCod"] as string;
+                string codigo = "";
+                if (txtVoucher != null)
+                {
+                    codigo = txtVoucher.Trim();
+                }
 
-            if (codigo == "")
-            {
-                lblError.Text = "Ingresá el código de voucher.";
-                return;
-            }
+                if (codigo == "")
+                {
+                    lblError.Text = "Ingresá el código de voucher.";
+                    return;
+                }
 
-            VoucherNegocio voucherNegocio = new VoucherNegocio();
-            VoucherNegocio.EstadoVoucher estado = voucherNegocio.validar(codigo);
+                VoucherNegocio voucherNegocio = new VoucherNegocio();
+                VoucherNegocio.EstadoVoucher estado = voucherNegocio.validar(codigo);
 
-            if (estado == VoucherNegocio.EstadoVoucher.Valido)
-            {
-                Session["CodigoVoucher"] = codigo;
-                Response.Redirect("ElegirPremio.aspx");
-            }
+                if (estado == VoucherNegocio.EstadoVoucher.Valido)
+                {
+                    Session["CodigoVoucher"] = codigo;
+                    Response.Redirect("ElegirPremio.aspx");
+                }
 
-            if (estado == VoucherNegocio.EstadoVoucher.Inexistente)
-            {
-                lblError.Text = "El código no existe";
+                if (estado == VoucherNegocio.EstadoVoucher.Inexistente)
+                {
+                    lblError.Text = "El código no existe";
+                }
+                else
+                {
+                    lblError.Text = "El código ya fue utilizado.";
+                }
             }
-            else
+            catch (Exception)
             {
-                lblError.Text = "El código ya fue utilizado.";
+
+                Response.Redirect("Error.aspx");
             }
         }
 

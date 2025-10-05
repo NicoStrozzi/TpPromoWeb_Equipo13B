@@ -32,9 +32,9 @@ namespace PromoWeb
                         emailService.ArmarCorreo(emailCliente, asunto, cuerpo);
                         emailService.Enviar();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
-                        throw ex;
+                        Response.Redirect("Error.aspx");
                     }
                 }
             } 

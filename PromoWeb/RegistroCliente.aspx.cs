@@ -58,7 +58,7 @@ namespace PromoWeb
                 {
                     string codigo = Session["txtCod"].ToString();
                     int idCliente = cliente.Id;
-                    int idArticulo = Convert.ToInt32(Session["PremioSeleccionadoId"]);
+                    int idArticulo = int.Parse(Session["PremioSeleccionadoId"].ToString());
 
                     VoucherNegocio negocioVoucher = new VoucherNegocio();
                     negocioVoucher.MarcarCanje(codigo, idCliente, idArticulo);
@@ -76,9 +76,9 @@ namespace PromoWeb
                 // Redirección a página de éxito
                 Response.Redirect("Exito.aspx");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MostrarMensaje("Error al procesar el cliente: " + ex.Message);
+                Response.Redirect("Error.aspx");
 
             }
         }
