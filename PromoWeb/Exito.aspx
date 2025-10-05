@@ -11,7 +11,8 @@
                 <!-- Mensaje de éxito -->
                 <div class="alert alert-success p-4 shadow-sm" role="alert">
                     <h2 class="mb-3">¡Registro exitoso!</h2>
-                    <p class="mb-0">Tu participación fue registrada correctamente.</p>
+                    <p class="mb-0 alert-success">Tu participación fue registrada correctamente.</p>
+                    <p class="bi bi-envelope-check-fill mb-0 alert-success"> Enviamos un mensaje a tu correo con la confirmacion!!.</p>
                 </div>
 
                 <!-- Botón para volver al inicio -->
