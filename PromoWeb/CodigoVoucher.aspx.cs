@@ -17,11 +17,11 @@ namespace PromoWeb
             {
                 txtVoucher.Focus();
             }
+            
         }
         protected void btnSiguiente_Click(object sender, EventArgs e)
         {
             Session["txtCod"] = txtVoucher.Text;
-
             Response.Redirect("RespuestaCodigo.aspx");
         }
     }
