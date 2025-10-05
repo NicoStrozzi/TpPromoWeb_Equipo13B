@@ -68,6 +68,11 @@ namespace PromoWeb
                     MostrarMensaje("Error al actualizar el voucher: " + ex.Message);
                 }
 
+                //Guarda la session
+                Session["EmailCliente"] = cliente.Email;
+                Session["NombreCliente"] = cliente.Nombre;
+
+
                 // Redirección a página de éxito
                 Response.Redirect("Exito.aspx");
             }
